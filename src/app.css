@@ -1,0 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.dropdown-menu:focus > .dropdown-menu-item\:flex, .dropdown-menu:hover > .dropdown-menu-item\:flex  {
+    display: flex;
+}
